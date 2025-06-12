@@ -7,63 +7,16 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
 
   <title>Frontend Mentor | QR code component</title>
 
-
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      display: flex;
-      /* 使用Flexbox布局 */
-      justify-content: center;
-      /* 水平居中 */
-      align-items: center;
-      /* 垂直居中 */
-      min-height: 100vh;
-      /* 确保容器高度至少为视口高度 */
-      background-color: hsl(212, 45%, 89%);
-      /* 添加背景色增强视觉效果 */
-    }
-
-    #back {
-      width: 300px;
-      /* 固定宽度更适合移动设备 */
-      max-width: 80%;
-      /* 响应式设计：在小屏幕上不超过视口的80% */
-      padding: 20px;
-      /* 添加内边距 */
-      background-color: white;
-      /* 白色背景 */
-      border-radius: 15px;
-      /* 圆角边框 */
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-      /* 添加阴影增强深度感 */
-    }
-
-    #qr-code-component {
-      text-align: center;
-      /* 确保图片居中 */
-    }
-
-    #qr-code-component img {
-      width: 100%;
-      /* 图片宽度自适应容器 */
-      height: auto;
-      /* 保持图片比例 */
-      border-radius: 10px;
-      /* 图片圆角 */
-
-    }
-  </style>
 </head>
 
 <body>
-  <div id="back">
-    <div id="qr-code-component">
-      <img src="images\image-qr-code.png" alt="qr-code">
+  <div class="back">
+    <div class="qr-card">
+      <img src="images/image-qr-code.png" alt="QR Code">
       <h2>Improve your front-end skills by building projects</h2>
       <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
     </div>
